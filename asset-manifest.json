@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Card/static/css/main.4ba3c573.css",
-    "main.js": "/Card/static/js/main.b36fea49.js",
+    "main.css": "/Card/static/css/main.f495088a.css",
+    "main.js": "/Card/static/js/main.3da43235.js",
     "static/media/Me.png": "/Card/static/media/Me.898ffef55ca769b2b54d.png",
     "static/media/IstokWeb-Regular.ttf": "/Card/static/media/IstokWeb-Regular.50996525c2c1ba8165b1.ttf",
     "static/media/dripicons-v2.svg": "/Card/static/media/dripicons-v2.4cecedd188b606da855d.svg",
@@ -10,11 +10,11 @@
     "static/media/dripicons-v2.ttf": "/Card/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
     "static/media/dripicons-v2.woff": "/Card/static/media/dripicons-v2.f19dcc0358afed69d277.woff",
     "index.html": "/Card/index.html",
-    "main.4ba3c573.css.map": "/Card/static/css/main.4ba3c573.css.map",
-    "main.b36fea49.js.map": "/Card/static/js/main.b36fea49.js.map"
+    "main.f495088a.css.map": "/Card/static/css/main.f495088a.css.map",
+    "main.3da43235.js.map": "/Card/static/js/main.3da43235.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ba3c573.css",
-    "static/js/main.b36fea49.js"
+    "static/css/main.f495088a.css",
+    "static/js/main.3da43235.js"
   ]
 }
