@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Card/static/css/main.3ab7952f.css",
+    "main.css": "/Card/static/css/main.e744cd36.css",
     "main.js": "/Card/static/js/main.5ccf3dd0.js",
     "static/media/Me.png": "/Card/static/media/Me.898ffef55ca769b2b54d.png",
     "static/media/IstokWeb-Regular.ttf": "/Card/static/media/IstokWeb-Regular.50996525c2c1ba8165b1.ttf",
@@ -10,11 +10,11 @@
     "static/media/dripicons-v2.ttf": "/Card/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
     "static/media/dripicons-v2.woff": "/Card/static/media/dripicons-v2.f19dcc0358afed69d277.woff",
     "index.html": "/Card/index.html",
-    "main.3ab7952f.css.map": "/Card/static/css/main.3ab7952f.css.map",
+    "main.e744cd36.css.map": "/Card/static/css/main.e744cd36.css.map",
     "main.5ccf3dd0.js.map": "/Card/static/js/main.5ccf3dd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab7952f.css",
+    "static/css/main.e744cd36.css",
     "static/js/main.5ccf3dd0.js"
   ]
 }
