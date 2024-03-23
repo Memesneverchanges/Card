@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Card/static/css/main.7bb34ec4.css",
-    "main.js": "/Card/static/js/main.e0dc336d.js",
+    "main.css": "/Card/static/css/main.eb46e754.css",
+    "main.js": "/Card/static/js/main.05b967f0.js",
     "static/media/Me.png": "/Card/static/media/Me.898ffef55ca769b2b54d.png",
     "static/media/IstokWeb-Regular.ttf": "/Card/static/media/IstokWeb-Regular.50996525c2c1ba8165b1.ttf",
+    "static/media/resume.pdf": "/Card/static/media/resume.bc8a0099f1c1b6f1566d.pdf",
     "static/media/dripicons-v2.svg": "/Card/static/media/dripicons-v2.4cecedd188b606da855d.svg",
     "static/media/Koulen-Regular.ttf": "/Card/static/media/Koulen-Regular.e23002c698c2632e9437.ttf",
     "static/media/dripicons-v2.eot": "/Card/static/media/dripicons-v2.7f392f1e4787b46b3e8b.eot",
     "static/media/dripicons-v2.ttf": "/Card/static/media/dripicons-v2.09c9c870ef8f9cffcc8f.ttf",
     "static/media/dripicons-v2.woff": "/Card/static/media/dripicons-v2.f19dcc0358afed69d277.woff",
-    "static/media/rotatephone.gif": "/Card/static/media/rotatephone.aa901bc5d767830cfdd3.gif",
     "index.html": "/Card/index.html",
-    "main.7bb34ec4.css.map": "/Card/static/css/main.7bb34ec4.css.map",
-    "main.e0dc336d.js.map": "/Card/static/js/main.e0dc336d.js.map"
+    "main.eb46e754.css.map": "/Card/static/css/main.eb46e754.css.map",
+    "main.05b967f0.js.map": "/Card/static/js/main.05b967f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bb34ec4.css",
-    "static/js/main.e0dc336d.js"
+    "static/css/main.eb46e754.css",
+    "static/js/main.05b967f0.js"
   ]
 }
