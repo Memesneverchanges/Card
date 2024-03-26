@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Card/static/css/main.eb46e754.css",
-    "main.js": "/Card/static/js/main.05b967f0.js",
+    "main.js": "/Card/static/js/main.a10ce15e.js",
     "static/media/Me.png": "/Card/static/media/Me.898ffef55ca769b2b54d.png",
     "static/media/IstokWeb-Regular.ttf": "/Card/static/media/IstokWeb-Regular.50996525c2c1ba8165b1.ttf",
-    "static/media/resume.pdf": "/Card/static/media/resume.bc8a0099f1c1b6f1566d.pdf",
+    "static/media/resume.pdf": "/Card/static/media/resume.ab94f3170ca92ba1845c.pdf",
     "static/media/dripicons-v2.svg": "/Card/static/media/dripicons-v2.4cecedd188b606da855d.svg",
     "static/media/Koulen-Regular.ttf": "/Card/static/media/Koulen-Regular.e23002c698c2632e9437.ttf",
     "static/media/dripicons-v2.eot": "/Card/static/media/dripicons-v2.7f392f1e4787b46b3e8b.eot",
@@ -12,10 +12,10 @@
     "static/media/dripicons-v2.woff": "/Card/static/media/dripicons-v2.f19dcc0358afed69d277.woff",
     "index.html": "/Card/index.html",
     "main.eb46e754.css.map": "/Card/static/css/main.eb46e754.css.map",
-    "main.05b967f0.js.map": "/Card/static/js/main.05b967f0.js.map"
+    "main.a10ce15e.js.map": "/Card/static/js/main.a10ce15e.js.map"
   },
   "entrypoints": [
     "static/css/main.eb46e754.css",
-    "static/js/main.05b967f0.js"
+    "static/js/main.a10ce15e.js"
   ]
 }
