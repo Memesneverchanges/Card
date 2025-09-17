@@ -1,0 +1,240 @@
+.skills-card
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 488px
+
+.skills-card-content
+    height: 100%
+    gap: 15px
+
+.skills-card-list
+    h3
+        margin-top: 12px
+    ul
+        display: flex
+        flex-direction: column
+        flex-wrap: wrap
+    p
+        margin: 0
+        margin-top:1em
+
+.slided-card
+    position: relative
+    h3
+        margin: 0
+    ul li
+        margin-top: 6px
+
+.programm-skill-progress-bar:after
+    content:""
+    position: absolute
+    z-index: 102
+    border-radius: 5px
+    width: 0
+    height: 5px
+    background-color: rgba(161, 117, 255, 0.8509803922)
+    opacity: 1
+
+.programm-skill-progress-bar:before
+    content:""
+    position: absolute
+    z-index: 101
+    border-radius: 5px
+    width: 0
+    height: 5px
+    background-color: rgba(161, 117, 255, 0.8509803922)
+
+.programm-skill-progress-bar
+    width: 100%
+    height: 5px
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 3px 0px
+    border-radius: 5px
+    position: relative
+    overflow: hidden
+    background: rgba(245, 222, 179, 0.47)
+
+.programm-skill
+    display: inline
+
+.programm-skill-name
+    display: inline
+    border-radius: 5px
+    background: linear-gradient(180deg, rgba(220, 214, 164, 0.132) 0%, rgba(220, 214, 164, 0.066) 100%)
+    padding: 0 5px
+    box-shadow: 0px 2px 2px 0px #00000033 inset, 0px -2px 2px 0px #00000033 inset,0px 0px 50px 0px #FFFFFF26 inset
+    cursor: pointer
+
+.programm-skill-name:hover
+    background: linear-gradient(180deg, rgb(183 110 197) 0%, rgb(194 106 165) 100%)
+
+
+
+.programm-skill-info-container
+    display: inline
+    position: absolute
+    overflow: hidden
+    z-index: 100
+    width: 0
+    opacity: 0
+    transition: opacity 0.5s
+    @media (max-width: 425px)
+        display: block
+    
+
+.programm-skill-info
+    width: calc( 100% - 20px )
+    display: inline-flex
+    flex-direction: column
+    justify-content: center
+    background: linear-gradient(180deg, rgb(183 110 197) 0%, rgb(194 106 165) 100%)
+    box-shadow: 0px 2px 2px 0px #00000033 inset, 0px -2px 2px 0px #00000033 inset,0px 0px 50px 0px #FFFFFF26 inset
+    backdrop-filter: blur(1px) 
+    padding: 10px
+    border-radius: 10px 
+
+.programm-skill-progress-part
+    display: flex
+    flex-direction: row
+    align-items: center
+    gap: 10px
+
+.programm-skill-additional
+    h3
+        font-size: 16px
+    ul
+        margin: 0 !important
+    li
+        margin: 0 !important
+    li:before
+        content: "– "
+        color: #DCD6A4
+
+ 
+.programm-skill:active,.programm-skill:hover
+    .programm-skill-info-container
+        width: 250px
+        padding-left: 10px
+        opacity: 1
+        @media (max-width: 425px)
+            padding-left: 0
+            width: 170px
+    .programm-skill-progress-bar:before
+        width: calc(1% * var(--skill-level))
+        background: linear-gradient(90deg, rgba(161, 117, 255, 0.8509803922) 0%, rgba(calc(161 + 58 * 0.01 * var(--skill-level)),calc(117 - 19 * 0.01 * var(--skill-level)), calc(255 - 157 * 0.01 * var(--skill-level)), 0.77) 100%)
+        transition: all 1s
+    .programm-skill-progress-bar:after
+        width: calc(1% * var(--skill-level))
+        opacity: 0
+        transition: all 1s
+
+
+
+.portfolioboard-1
+    #Skills
+        border: 7px solid #324C5F
+    #Achievements
+        border: 7px solid #324C5F
+
+    .skills-card
+        position: relative
+        background-color: #DCD6A4
+        bottom:-25px
+        left:-25px
+
+    .skills-card-container
+        margin-left: 48px
+        margin-right: 12px
+
+    .skills-card-title
+        border-bottom: 5px solid #324C5F
+
+    .skills-card-title h1
+        position: relative
+        margin-bottom: 12px
+        left: -42px
+
+    .skills-card-list
+        ul li
+            color: #324C5F
+        p
+            color: #324C5F
+
+    .skills-card
+        .card-navigation 
+            a
+                color:#324C5F
+            a svg path
+                fill: #324C5F
+
+    .slided-card
+        left:-72px
+        background-color: #324c5ff2
+        padding: 6px 0 0 6px
+        h3
+            color: #FBFBFB
+        ul li
+            color: #FBFBFB
+
+.portfolioboard-2
+    .skills-card
+        background: linear-gradient(180deg, rgba(220, 214, 164, 0.132) 0%, rgba(220, 214, 164, 0.066) 100%)
+        box-shadow: 0px 2px 2px 0px #00000033 inset, 0px -2px 2px 0px #00000033 inset,0px 0px 50px 0px #FFFFFF26 inset
+        backdrop-filter: blur(8px)
+        
+    .skills-card-container
+        margin-left: 25px
+        margin-right: 12px
+        margin-top: 15px
+        margin-bottom: 15px
+
+    .skills-card-title h1
+        color: #FFF9F9
+        position: relative
+        margin: 0
+        margin-block: 0
+        margin-bottom: 15px
+
+    .skills-card-list
+        h3
+            color:#DCD6A4
+        ul li
+            color: #FFFFFF
+        p
+            color: #FFFFFF
+
+    .skills-card
+        .card-navigation 
+            a
+                color:#DCD6A4
+            a svg path
+                fill: #DCD6A4
+
+    .slided-card
+        h3
+            color: #DCD6A4
+        ul li
+            color: #FBFBFB
+
+
+
+
+@media (max-width: 425px)
+    .portfolioboard-1
+        .skills-card
+            width: 340px 
+            top: 0
+            left: 0
+            padding: 10px
+        .slided-card
+            left: 0
+        .skills-card-container
+            margin: 0
+        #Skills
+            border: none
+        #Achievements
+            border: none
+        .skills-card-title h1
+            left: 0
+ 
+

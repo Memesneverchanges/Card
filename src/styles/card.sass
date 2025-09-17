@@ -1,0 +1,57 @@
+.card
+    font-family: Istok Web , TeX Gyre Adventor, URW Gothic L, sans-serif
+    li
+        display: block
+    ul li:not(:first-child)
+        margin-top: 6px
+    ul
+        padding: 0
+        margin-bottom: 0
+    h3
+        margin: 0
+    @media screen and (max-width: 500px)
+        width:95vw
+        height: auto
+
+.card-navigation
+    display: flex
+    flex-direction: row
+    padding: 12px
+    a
+        font-family: Avantgarde,TeX Gyre Adventor,URW Gothic L,sans-serif
+        display: flex
+        flex-direction: row
+        justify-content: center
+        gap: 6px
+        border: 0
+        padding: 0
+        background: none
+        cursor: pointer
+        font-size: 24px
+        color:#DCD6A4
+        user-select: none
+        text-decoration: none
+        img , svg
+            width: 27px
+            height: 27px
+            transform: rotate(90deg)
+        
+
+.card-navigation-button
+    justify-content: flex-end
+    a svg path
+        fill:#DCD6A4
+
+.card-navigation-buttons
+    justify-content: space-between
+    a svg path
+        fill:#DCD6A4
+    a:first-child
+        flex-direction: row-reverse
+        img,svg
+            transform: rotate(-90deg)
+    
+
+
+    
+    

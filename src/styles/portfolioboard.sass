@@ -1,0 +1,98 @@
+.portfolioboard
+    overflow: hidden
+
+.theme-selector-container
+    position: absolute
+    display: flex
+    flex-direction: row
+    gap:20px
+    top: 20px
+    left: 20px
+    z-index: 100
+
+.theme-selector-button
+    border: 1px black solid
+    border-radius: 8%
+    background: none
+    padding: 0
+    transition: opacity 0.5s
+    cursor: pointer
+    opacity: 0.5
+
+.theme-selector-content
+    height: 50px
+    width: 45px
+
+.portfolioboard-1
+    .theme-selector-content
+         background: linear-gradient(90deg, #fbfbfb 0%, #dcd6a4 100%)
+
+.portfolioboard-2
+    .theme-selector-content
+        background: linear-gradient(90deg, rgba(161, 117, 255, 0.6509803922) 0%, rgb(219 98 98 / 57%) 100%)
+
+
+.theme-selector-button:hover
+    opacity: 1
+
+.theme-selected
+    opacity: 1
+
+.localization-button-container
+    position: absolute
+    bottom: 20px
+    left: 20px
+    z-index: 1000
+
+.localization-button
+    border: 0
+    background: none
+    transition: opacity 0.5s
+    cursor: pointer
+    font-size: 24px
+    opacity: 0.6
+
+.localization-button:hover
+    opacity: 1
+
+.portfolioboard-object
+    z-index: 2
+    position: absolute
+    cursor: initial
+    user-select: none
+    .hovered
+        user-select: text
+
+.portfolioboard-map
+    position: fixed
+    opacity: 0.7
+    transition: opacity 0.5s
+    background: linear-gradient(90deg, rgba(161, 117, 255, 0.6509803922) 0%, rgb(219 98 98 / 57%) 100%)
+    border: solid #0000004d 1px
+    border-radius: 6px
+    padding-right: 2px
+    padding-bottom: 2px
+    z-index: 9
+
+.portfolioboard-map:hover
+    opacity: 1
+
+.portfolioboard-map-window
+    z-index: 3
+    cursor: pointer
+    position: absolute
+    background-color: rgb(255 255 255 / 12%)
+    border-radius: 6px
+    transition: transform 0.2s
+    overflow: hidden 
+
+.portfolioboard-background
+    background: linear-gradient(90deg, rgba(161, 117, 255) 0%, rgb(219 98 98) 100%)
+    
+@media (max-width: 760px)
+    .portfolioboard-map
+        display: none
+
+@media (orientation: landscape) and (max-height:760px)
+    .portfolioboard-map
+        display: none
